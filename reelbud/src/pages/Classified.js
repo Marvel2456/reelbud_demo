@@ -1,14 +1,14 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import Navbar from '../components/Navbar'
+import Body from '../components/Body'
 import BottomNavbar from '../components/BottomNavbar'
 
 
 const Classified = () => {
   return (
-    <div className='mx-10 xl:mx-[140px] bg-white grid grid-cols-12 gap-4'>
+    <div className='mx-10 xl:mx-[120px] bg-white grid grid-cols-12 gap-10'>
       <Sidebar />
-      <Navbar />
+      <Body />
       <BottomNavbar />
     </div>
   )
