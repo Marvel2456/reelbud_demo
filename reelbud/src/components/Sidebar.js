@@ -43,7 +43,7 @@ const Sidebar = () => {
                 <SlStar size={30} />
                 <span className='font-semibold'>Events</span>  
               </div>
-              <div className='flex gap-3 items-center mx-10 p-2 py-3 rounded-lg text-gray-700'>
+              <div className='flex gap-3 items-center mx-10 p-2 py-3 bg-[#0E2760] text-white rounded-lg text-gray-700'>
                 <HiOutlineShoppingBag size={30} />
                 <span className='font-semibold'>Classifieds</span>  
               </div>
